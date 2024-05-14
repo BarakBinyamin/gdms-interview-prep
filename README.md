@@ -22,7 +22,7 @@ make
 - `__attribute__((packed))` bit packs a union (no padding)
 - `cout <<` vs `printf`, `cout` will interleave while `printf` will not, this is called `atomicity` meaning without interruptions
 - Big endian systems store the most signifiacnt **byte** first in memory, Little endian is vice versa (becuase many systems are byte addressed)
-- Big endian is the domniant ordering in netwrok protocals 
+- Big endian is the domniant ordering in network protocals  
 
 
 ### Topics to research
