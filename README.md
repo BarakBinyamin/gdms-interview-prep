@@ -25,7 +25,7 @@ make
 
 ### Topics to research
 - [ ] c++ basics
-    - [x] basic io, (std in, std out, files)
+    - [ ] basic io, (std in, std out, files)
     - [ ] data structures (union, struct, enum, class, interface,  public, protected, private)
     - [ ] memory structures (list, set, linked list, associated operations)
     - [ ] threading (get one two threads print)
@@ -34,7 +34,7 @@ make
 - [ ] UML diagrams (make a uml diagram)
 - [ ] realtime os
 
-# Mac Toolchain for C++ dev
+### Mac Toolchain for C++ dev
 - vscode, c++ intellisense extension by microsoft
 - g++
 - make
