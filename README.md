@@ -11,16 +11,18 @@ make
 ```
 
 ### Questions/concepts to review
-- data structures in c++
-    - namespace (allows multiple functions with the same name to be used, as long as they are under different namespaces, enter a namespace to use the functions declared within it... or just use namespace::member syntax)
-    - members (variables, methods, contructors, destructors)
-    - public - members accessible from anywhere
-    - private - only the object itself can access these members
-    - protected - children can access these members
-- threads can share heap data, processes do not
-- unions keeps all members within the same memory block, while structs may not
+- Data structures in c++
+    - Namespace (allows multiple functions with the same name to be used, as long as they are under different namespaces, enter a namespace to use the functions declared within it... or just use namespace::member syntax)
+    - Members (variables, methods, contructors, destructors)
+    - Public - members accessible from anywhere
+    - Private - only the object itself can access these members
+    - Protected - children can access these members
+- Threads can share heap data, processes do not
+- Unions keeps all members within the same memory block, while structs may not
 - `__attribute__((packed))` bit packs a union (no padding)
 - `cout <<` vs `printf`, `cout` will interleave while `printf` will not, this is called `atomicity` meaning without interruptions
+- Big endian systems store the most signifiacnt **byte** first in memory, Little endian is vice versa (becuase many systems are byte addressed)
+- Big endian is the domniant ordering in netwrok protocals 
 
 
 ### Topics to research
